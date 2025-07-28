@@ -14,7 +14,9 @@ This project unifies daily ad metrics from Facebook & Google, handles missing va
   - `url_parameters` (TEXT with UTM params)  
   - `spend`, `impressions`, `reach`, `clicks`, `leads`, `value` (NUMERIC)  
 - **ER Diagram**
-![Schema Diagram](./docs/schema_diagram.png) 
+<p align="center">
+  <img src="./docs/schema_diagram.png" alt="Schema Diagram" width="400" />
+</p>
   A simple two-table layout, each with identical columns, to be UNION-ALL’d in our CTE.
 
 
